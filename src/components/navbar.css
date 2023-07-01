@@ -1,0 +1,92 @@
+.navbar{
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+
+.logo{
+    display: flex;
+    padding-left: 70px ;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+
+#title{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+#img{
+    width: 50px;
+    padding: 2px;
+    font-size: large;
+    color: rgb(255, 0, 93);
+}
+
+.navlist {
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 10px;
+   
+}
+
+.navlist li{
+    padding: 1rem;
+    position: relative;
+    
+}
+
+.navlist li a{
+    text-decoration: none;
+    padding: 6px 0;
+    position: relative;
+    color: black;
+    font-size: bolder;
+
+}
+
+.navlist li a:before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left:0 ;
+    height: 3px;
+    width: 0%;
+    background-color: rgb(251, 5, 116);
+    transition: all 0.4s ease;
+}
+
+.navlist li a:hover:before{
+    width: 100%;
+
+}
+
+.navlist2 {
+    display: flex;
+    list-style: none;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.navlist2 li{
+    padding: 10px  20px;
+} 
+
+.navlist2 li a{
+    color: rgb(206, 5, 95);
+    cursor: pointer;
+}
+

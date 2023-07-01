@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    padding: 50px;
+}
+
+.banner{
+    display: flex;
+}
+
+#bannerimg img{
+    width: 100%;
+}
+
+.content {
+    font-size: 60px;
+    padding: 150px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(67, 66, 66);
+}
+
+#bannercontent{
+    text-align: justify;
+    padding: 20px ;
+    color: rgb(103, 101, 101);
+
+}
+
+p{
+    padding: 20px;
+}
+
+button{
+    padding:10px 30px;
+    font-weight: bold;
+    background-color: rgb(245, 100, 153);
+    border: none;
+    color: white;
+    border-radius: 30px; 
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
+    margin:  0px 20px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: rgb(252, 140, 181);
+
+}
+
