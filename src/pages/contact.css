@@ -29,7 +29,15 @@
     box-sizing: border-box;
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
+    resize: none;
+}
+
+.contactElements:focus{
+    outline: none;
+}
+
+textarea{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .list1{

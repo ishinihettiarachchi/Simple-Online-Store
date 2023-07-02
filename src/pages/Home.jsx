@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './home.css'
 import bannerimg from '../images/bannerimg.jpeg'
+import img from '../images/img.jpeg'
 import {Link} from 'react-router-dom'
 
 function Home() {
@@ -27,6 +28,25 @@ function Home() {
               <Link to="/about"><button>About Us</button></Link>
             </div>
           </div>
+        </div>
+        <div className="secondContainer">
+          <h2>Featured Products</h2>
+        </div>
+        <div className="imgContainer">
+            <img src={img} alt="" className='img'/>
+            <img src={img} alt="" className='img'/>
+            <img src={img} alt="" className='img'/>
+            <img src={img} alt="" className='img'/>
+        </div>
+
+        <div className="secondContainer">
+          <h2>New Arrivals</h2>
+        </div>
+        <div className="imgContainer">
+            <img src={img} alt="" className='img'/>
+            <img src={img} alt="" className='img'/>
+            <img src={img} alt="" className='img'/>
+            <img src={img} alt="" className='img'/>
         </div>
         <Footer/>
     </div>

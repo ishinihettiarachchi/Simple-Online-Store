@@ -1,0 +1,36 @@
+
+  
+  .sidenav {
+    width: 130px;
+    padding: 20px;
+  }
+  
+  .sidenav a {
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #65032f;
+    display: flex;
+   
+
+  }
+  
+  .sidenav a:hover {
+    color: #ed59ac;
+  }
+
+  .productContainer{
+    display: flex;
+  }
+
+  .img1{
+    width: 15%;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+  }
+  
+
+  
+ 

@@ -61,7 +61,7 @@ function Footer() {
         </div>
         <hr />
         <div className="copyright">
-        <div className="list2">
+        <div className="secondlist">
                     <li className='copyrightIcon'><CopyrightIcon/></li>
                     <li className='text'>Copyright reserved 2023 | MiniWeb </li>
         </div>

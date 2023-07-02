@@ -77,13 +77,13 @@ h3{
    
 }
 
-.list2 {
+.secondlist {
     display: flex;
     text-align: center;
     font: white;
 }
 
-.list2 li{
+.secondlist li{
    list-style: none;
    text-align: center;
    color: white;
