@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import './home.css'
 import bannerimg from '../images/bannerimg.jpeg'
 import {Link} from 'react-router-dom'
@@ -15,7 +16,7 @@ function Home() {
             </div>
             <div className='bannerContatiner' id="bannercontent">
               <div className="offer">
-              <span className='content'>20% Seasonal Offer</span>
+            20% Seasonal Offer
               </div>
               <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -27,6 +28,7 @@ function Home() {
             </div>
           </div>
         </div>
+        <Footer/>
     </div>
   )
 }

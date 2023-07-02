@@ -1,3 +1,5 @@
+
+
 .container{
     display: flex;
     padding: 50px;
@@ -11,15 +13,14 @@
     width: 100%;
 }
 
-.content {
+.offer {
     font-size: 60px;
-    padding: 150px;
-    text-align: center;
+    padding-left: 150px;
     font-weight: bold;
     color: rgb(67, 66, 66);
 }
 
-#bannercontent{
+#bannercontent {
     text-align: justify;
     padding: 20px ;
     color: rgb(103, 101, 101);
