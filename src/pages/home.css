@@ -1,3 +1,5 @@
+
+
 .container{
     display: flex;
     padding: 50px;
@@ -11,15 +13,14 @@
     width: 100%;
 }
 
-.content {
+.offer {
     font-size: 60px;
-    padding: 150px;
-    text-align: center;
+    padding-left: 150px;
     font-weight: bold;
     color: rgb(67, 66, 66);
 }
 
-#bannercontent{
+#bannercontent {
     text-align: justify;
     padding: 20px ;
     color: rgb(103, 101, 101);
@@ -46,5 +47,22 @@ button{
 button:hover{
     background-color: rgb(252, 140, 181);
 
+}
+
+.secondContainer{
+    padding: 10px;
+    background-image: linear-gradient( rgb(245, 100, 153,0.3) , rgb(255, 255, 255));
+}
+
+h2{
+    color: rgb(93, 93, 93);
+}
+
+.img{
+    width: 20%;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 }
 

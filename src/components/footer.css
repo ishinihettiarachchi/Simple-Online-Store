@@ -1,0 +1,94 @@
+.footer{
+    background-color: rgb(91, 5, 48);
+}
+
+
+.row1{
+    display: flex;
+    padding: 20px;
+   
+}
+
+h3{
+    color: rgb(226, 224, 224);
+}
+
+.footerDes{
+    color: rgb(183, 185, 187);
+}
+
+.icons{
+    display: flex;
+}
+
+.icon{
+    list-style: none;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.contentFooter{
+    flex: 2;
+    text-align: left;
+    padding: 30px 80px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footerTitle{
+    padding-left: 20px;
+}
+
+.footerlist1{
+    list-style: none;
+    padding: 5px 30px;
+    text-decoration: none;
+
+}
+
+.footerlist2{
+    list-style: none;
+    padding: 5px 30px 5px 10px;
+    color: rgb(183, 185, 187);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footerlist1 a{
+    text-decoration: none;
+    color: rgb(183, 185, 187);
+}
+
+.contactIcon{
+    color: rgb(183, 185, 187);
+    padding: 5px 30px;
+}
+    
+
+.list{
+    display: flex;
+}
+
+.copyright{
+    padding: 20px;
+   
+}
+
+.secondlist {
+    display: flex;
+    text-align: center;
+    font: white;
+}
+
+.secondlist li{
+   list-style: none;
+   text-align: center;
+   color: white;
+   
+}
+
+
+

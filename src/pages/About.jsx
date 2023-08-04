@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import {Link} from 'react-router-dom'
 import bannerimg2 from '../images/bannerimg2.jpeg'
 import './about.css'
@@ -32,6 +33,7 @@ function About() {
             </div>
           </div>
         </div>
+        <Footer/>
     </div>
   )
 }
