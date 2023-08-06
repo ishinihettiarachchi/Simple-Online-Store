@@ -13,12 +13,9 @@
     justify-content: center;
 }
 
-
-
 #title{
     font-weight: bold;
-    font-size: 20px;
-    
+    font-size: 20px;   
 }
 
 #img{
@@ -41,8 +38,7 @@
 
 .navlist li{
     padding: 1rem;
-    position: relative;
-  
+    position: relative; 
 }
 
 .navlist li a{
