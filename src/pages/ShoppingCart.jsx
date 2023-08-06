@@ -14,6 +14,7 @@ import {
 
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import './shoppingCart.css'
 
 export default function CartCheckout() {
   return (
@@ -162,7 +163,7 @@ export default function CartCheckout() {
                     </div>
                     <div
                       className="d-flex justify-content-between p-2 mb-2"
-                      style={{ backgroundColor: "#e1f5fe" }}
+                      style={{ backgroundColor: "rgb(216, 162, 186)" }}
                     >
                       <MDBTypography tag="h5" className="fw-bold mb-0">
                         Total:
@@ -229,7 +230,7 @@ export default function CartCheckout() {
                         <a href="#!"> obcaecati sapiente</a>.
                       </p>
 
-                      <MDBBtn block size="lg">
+                      <MDBBtn block size="lg" className="btn-bg-color">
                         Buy now
                       </MDBBtn>
 
