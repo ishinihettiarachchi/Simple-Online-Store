@@ -1,3 +1,14 @@
-.btn-bg-color{
-    background-color: rgb(206, 5, 95);
-}
+
+.btn-bg-color {
+    background-color: #e64686; 
+    color: #fff; 
+  }
+
+  .bg-color{
+    color: #f112a7;
+  }
+
+  .text-primary span{
+    color: #700532;
+  }
+  
