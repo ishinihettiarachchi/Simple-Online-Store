@@ -22,7 +22,7 @@ function navbar() {
         </div>
         <div className="navlist2">
            
-                <li><a href=""><ShoppingCartIcon/></a></li>
+                <li><a href=""><Link to ='/shopping-cart'><ShoppingCartIcon/></Link></a></li>
                 <li><a href=""><AccountCircleIcon/></a></li>
             
           

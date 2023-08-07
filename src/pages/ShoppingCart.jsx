@@ -59,14 +59,14 @@ export default function ShoppingCart() {
                           <p className="fw-bold mb-0 me-5 pe-3">799$</p>
 
                           <div className="def-number-input number-input safari_only">
-                            <button className="minus">+</button>
+                            
                             <input
                               className="quantity fw-bold text-black"
                               min={0}
                               defaultValue={1}
                               type="number"
                             />
-                            <button className="plus">-</button>
+                            
                           </div>
                         </div>
                       </div>
@@ -97,14 +97,14 @@ export default function ShoppingCart() {
                           <p className="fw-bold mb-0 me-5 pe-3">239$</p>
 
                           <div className="def-number-input number-input safari_only">
-                            <button className="minus"></button>
+                            
                             <input
                               className="quantity fw-bold text-black"
                               min={0}
                               defaultValue={1}
                               type="number"
                             />
-                            <button className="plus"></button>
+                            
                           </div>
                         </div>
                       </div>
@@ -135,14 +135,14 @@ export default function ShoppingCart() {
                           <p className="fw-bold mb-0 me-5 pe-3">659$</p>
 
                           <div className="def-number-input number-input safari_only">
-                            <button className="minus"></button>
+                            
                             <input
                               className="quantity fw-bold text-black"
                               min={0}
                               defaultValue={2}
                               type="number"
                             />
-                            <button className="plus"></button>
+                            
                           </div>
                         </div>
                       </div>
@@ -231,7 +231,7 @@ export default function ShoppingCart() {
                         <a href="#!"> obcaecati sapiente</a>.
                       </p>
 
-                      <MDBBtn block size="lg" className="btn-bg-color">
+                      <MDBBtn block size="lg" id="btn-bg-color">
                         Buy now
                       </MDBBtn>
 
