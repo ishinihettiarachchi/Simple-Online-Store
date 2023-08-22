@@ -16,7 +16,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import './shoppingCart.css'
 
-export default function CartCheckout() {
+export default function ShoppingCart() {
   return (
     <section className="h-100 h-custom" style={{ backgroundColor: "#eee" }}>
       <Navbar/>
@@ -49,7 +49,7 @@ export default function CartCheckout() {
                           <MDBIcon fas icon="times" />
                         </a>
                         <MDBTypography tag="h5" className="text-primary">
-                          Samsung Galaxy M11 64GB
+                          <span>Samsung Galaxy M11 64GB</span>
                         </MDBTypography>
                         <MDBTypography tag="h6" style={{ color: "#9e9e9e" }}>
                           Color: white
@@ -59,14 +59,14 @@ export default function CartCheckout() {
                           <p className="fw-bold mb-0 me-5 pe-3">799$</p>
 
                           <div className="def-number-input number-input safari_only">
-                            <button className="minus"></button>
+                            
                             <input
                               className="quantity fw-bold text-black"
                               min={0}
                               defaultValue={1}
                               type="number"
                             />
-                            <button className="plus"></button>
+                            
                           </div>
                         </div>
                       </div>
@@ -87,7 +87,7 @@ export default function CartCheckout() {
                           <MDBIcon fas icon="times" />
                         </a>
                         <MDBTypography tag="h5" className="text-primary">
-                          Headphones Bose 35 II
+                          <span>Headphones Bose 35 II</span>
                         </MDBTypography>
                         <MDBTypography tag="h6" style={{ color: "#9e9e9e" }}>
                           Color: red
@@ -97,14 +97,14 @@ export default function CartCheckout() {
                           <p className="fw-bold mb-0 me-5 pe-3">239$</p>
 
                           <div className="def-number-input number-input safari_only">
-                            <button className="minus"></button>
+                            
                             <input
                               className="quantity fw-bold text-black"
                               min={0}
                               defaultValue={1}
                               type="number"
                             />
-                            <button className="plus"></button>
+                            
                           </div>
                         </div>
                       </div>
@@ -125,7 +125,7 @@ export default function CartCheckout() {
                           <MDBIcon fas icon="times" />
                         </a>
                         <MDBTypography tag="h5" className="text-primary">
-                          iPad 9.7 6-gen WiFi 32GB
+                          <span>iPad 9.7 6-gen WiFi 32GB</span>
                         </MDBTypography>
                         <MDBTypography tag="h6" style={{ color: "#9e9e9e" }}>
                           Color: rose pink
@@ -135,14 +135,14 @@ export default function CartCheckout() {
                           <p className="fw-bold mb-0 me-5 pe-3">659$</p>
 
                           <div className="def-number-input number-input safari_only">
-                            <button className="minus"></button>
+                            
                             <input
                               className="quantity fw-bold text-black"
                               min={0}
                               defaultValue={2}
                               type="number"
                             />
-                            <button className="plus"></button>
+                            
                           </div>
                         </div>
                       </div>
@@ -152,7 +152,7 @@ export default function CartCheckout() {
                       className="mb-4"
                       style={{
                         height: "2px",
-                        backgroundColor: "#1266f1",
+                        backgroundColor: "#700532",
                         opacity: 1,
                       }}
                     />
@@ -188,6 +188,7 @@ export default function CartCheckout() {
                         type="text"
                         size="lg"
                         defaultValue="1234 5678 9012 3457"
+                        
                       />
 
                       <MDBInput
@@ -230,7 +231,7 @@ export default function CartCheckout() {
                         <a href="#!"> obcaecati sapiente</a>.
                       </p>
 
-                      <MDBBtn block size="lg" className="btn-bg-color">
+                      <MDBBtn block size="lg" id="btn-bg-color">
                         Buy now
                       </MDBBtn>
 
@@ -240,8 +241,8 @@ export default function CartCheckout() {
                         style={{ position: "absolute", bottom: "0" }}
                       >
                         <a href="#!">
-                          <MDBIcon fas icon="angle-left me-2" />
-                          Back to shopping
+                          <MDBIcon fas icon="angle-left me-2" className="bg-color"/>
+                          <span className="bg-color">Back to shopping</span>
                         </a>
                       </MDBTypography>
                     </form>
